@@ -31,8 +31,8 @@ public class AddBusLineForPassengerDemo {
             System.out.println("Pobrane linie dla pasażera: " + passenger.getBusLines());
 
             //stwórz nową linię
-            BusLine busLine1 = new BusLine("Linia 33");
-            BusLine busLine2 = new BusLine("Linia 15");
+            BusLine busLine1 = new BusLine("Linia 4");
+            BusLine busLine2 = new BusLine("Linia 16");
 
             //dodaj pasażera do nowej linii
             busLine1.addPassenger(passenger);
